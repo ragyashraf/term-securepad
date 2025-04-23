@@ -1,0 +1,11 @@
+[package]
+name = "term-securepad"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple terminal-based password-protected notepad application"
+
+[dependencies]
+crossterm = "0.27.0"
+rpassword = "7.3.1"
+sha2 = "0.10.8"
